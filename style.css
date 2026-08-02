@@ -132,7 +132,6 @@ ul { list-style: none; }
   overflow: hidden;
   background-color: #00503c;
   background-image: url("assets/images/bali-hero.jpg");
-  background-attachment: fixed;
   background-size: cover;
   background-position: center 22%;
 }
@@ -427,7 +426,6 @@ a:focus-visible, button:focus-visible {
   .navbar-links a { padding: 12px 20px; text-align: center; }
 }
 @media (max-width: 768px) {
-  .hero { background-attachment: scroll; } /* fixed attachment is unreliable on mobile */
   .hero h1 { font-size: 2.2rem; }
   .founder-profile { flex-direction: column; text-align: center; }
   .founder-text { text-align: center; }
