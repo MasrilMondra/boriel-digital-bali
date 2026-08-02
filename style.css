@@ -458,7 +458,3 @@ a:focus-visible, button:focus-visible {
   .founder-profile { flex-direction: column; text-align: center; }
   .founder-text { text-align: center; }
 }
-@media (max-width: 480px) {
-  .hero h1 { font-size: 1.7rem; }
-  .hero p { font-size: 1.05rem; }
-}
