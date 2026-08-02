@@ -122,19 +122,30 @@ ul { list-style: none; }
 
 /* ---- Hero ---- */
 .hero {
-  background-image: linear-gradient(rgba(0, 40, 30, 0.5), rgba(0, 40, 30, 0.55)), url('assets/images/bali-hero.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center 22%;
+  position: relative;
   height: 100vh;
   min-height: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   padding-top: 70px;
+  overflow: hidden;
+  background-color: #00503c;
+  background-image: url("assets/images/bali-hero.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center 22%;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0, 40, 30, 0.5), rgba(0, 40, 30, 0.55));
+  pointer-events: none;
 }
 .hero .overlay {
+  position: relative;
+  z-index: 1;
   background: rgba(0, 0, 0, 0.25);
   padding: 40px;
   text-align: center;
