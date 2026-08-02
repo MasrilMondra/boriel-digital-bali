@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id" data-lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Boriel Digital Bali - Mendukung UMKM Bali Go Digital dengan website, aplikasi mobile, dan solusi digital profesional.">
+  <title>Boriel Digital Bali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#home" class="navbar-brand">Boriel Digital Bali</a>
+
+    <button class="navbar-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+
+    <div class="navbar-links" id="navLinks">
+      <a href="#home"><span data-lang-id>Beranda</span><span data-lang-en>Home</span></a>
+      <a href="#about"><span data-lang-id>Tentang Kami</span><span data-lang-en>About</span></a>
+      <a href="#services"><span data-lang-id>Layanan</span><span data-lang-en>Services</span></a>
+      <a href="#portfolio"><span data-lang-id>Portofolio</span><span data-lang-en>Portfolio</span></a>
+      <a href="#vision-mission"><span data-lang-id>Visi & Misi</span><span data-lang-en>Vision & Mission</span></a>
+      <a href="#why-choose-us"><span data-lang-id>Mengapa Kami</span><span data-lang-en>Why Us</span></a>
+      <a href="#testimonials"><span data-lang-id>Testimoni</span><span data-lang-en>Testimonials</span></a>
+      <a href="#contact"><span data-lang-id>Kontak</span><span data-lang-en>Contact</span></a>
+    </div>
+
+    <div class="navbar-controls">
+      <div class="lang-switch">
+        <button data-lang-btn="id" onclick="setLanguage('id')">ID</button>
+        <button data-lang-btn="en" onclick="setLanguage('en')">EN</button>
+      </div>
+      <button class="theme-switch" onclick="toggleTheme()" aria-label="Ganti tema terang/gelap">🌓</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="overlay">
+      <h1 data-lang-id>UMKM Bali Go Digital</h1>
+      <h1 data-lang-en>Bali SMEs Go Digital</h1>
+      <p data-lang-id>Website & Aplikasi Profesional untuk Bisnis Lokal dan Wisatawan</p>
+      <p data-lang-en>Professional Websites & Apps for Local Business and Tourists</p>
+      <a href="https://wa.me/6285600056789" class="cta">
+        <span data-lang-id>Hubungi Boriel</span><span data-lang-en>Contact Boriel</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About / Founder Section -->
+  <section id="about">
+    <h2 data-lang-id>Tentang Kami</h2>
+    <h2 data-lang-en>About Us</h2>
+
+    <div class="founder-profile">
+      <img src="assets/images/founder.jpg" alt="Masril Novies Mondra - Founder & CEO Boriel Digital Bali" class="founder-photo">
+      <div class="founder-text">
+        <p class="founder-role" data-lang-id>Pendiri & CEO</p>
+        <p class="founder-role" data-lang-en>Founder & CEO</p>
+        <h3>Masril Novies Mondra, S.M., M.IST</h3>
+
+        <p data-lang-id>Seorang Strategic Business Leader dengan pengalaman lebih dari 20 tahun dalam pengembangan bisnis, retail, dan startup. Berhasil mendorong pertumbuhan hingga 35.6% secara nasional, membangun tim lintas fungsi, serta merancang strategi kategori yang menguntungkan. Dengan latar belakang akademik Master of Innovation Systems & Technology, beliau berkomitmen mendukung UMKM Bali dan dunia usaha profesional untuk go digital dan berdaya saing global.</p>
+        <p data-lang-en>A Strategic Business Leader with over 20 years of experience in business development, retail, and startups. He has driven national revenue growth of up to 35.6%, built cross-functional teams, and designed profitable category strategies. With an academic background in Innovation Systems & Technology, he is committed to helping Bali's SMEs and professional businesses go digital and compete globally.</p>
+
+        <div class="signature">
+          <p>Masril Novies Mondra</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2 data-lang-id>Layanan Kami</h2>
+    <h2 data-lang-en>Our Services</h2>
+    <ul class="services-list">
+      <li>🌐 <span data-lang-id>Website & Toko Online</span><span data-lang-en>Website & Online Store</span></li>
+      <li>📱 <span data-lang-id>Aplikasi Mobile</span><span data-lang-en>Mobile Apps</span></li>
+      <li>🧭 <span data-lang-id>Aplikasi Tour Guide</span><span data-lang-en>Tour Guide Apps</span></li>
+      <li>🚗 <span data-lang-id>Rental Motor/Mobil</span><span data-lang-en>Motorbike/Car Rental</span></li>
+      <li>🛍️ <span data-lang-id>Marketplace</span><span data-lang-en>Marketplace</span></li>
+      <li>📊 <span data-lang-id>Survey & Feasibility</span><span data-lang-en>Survey & Feasibility Studies</span></li>
+    </ul>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2 data-lang-id>Portofolio</h2>
+    <h2 data-lang-en>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <div class="portfolio-thumb"><img src="assets/images/kadek-bike-rental.png" alt="Kadek Bike Rental" loading="lazy"></div>
+        <h4>Kadek Bike Rental</h4>
+        <p data-lang-id>Aplikasi rental motor untuk wisatawan, melayani sejak 2018.</p>
+        <p data-lang-en>Motorbike rental app for tourists, live since 2018.</p>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-thumb"><img src="assets/images/bali-experience.png" alt="Bali Experience" loading="lazy"></div>
+        <h4>Bali Experience</h4>
+        <p data-lang-id>Aplikasi tur & pengalaman wisata interaktif dengan booking online.</p>
+        <p data-lang-en>Interactive tour & experience booking app.</p>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-thumb"><img src="assets/images/lubrika.png" alt="Lubrika.id" loading="lazy"></div>
+        <h4>Lubrika.id</h4>
+        <p data-lang-id>Marketplace produk oli & pelumas terpercaya, 100% asli.</p>
+        <p data-lang-en>Trusted marketplace for genuine lubricant products.</p>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-thumb"><img src="assets/images/market-feasibility.png" alt="Market Feasibility" loading="lazy"></div>
+        <h4>Market Feasibility</h4>
+        <p data-lang-id>Aplikasi analisis kelayakan pasar untuk keputusan bisnis yang lebih tepat.</p>
+        <p data-lang-en>Market feasibility analysis app for smarter business decisions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Mission Section -->
+  <section id="vision-mission">
+    <h2 data-lang-id>Visi & Misi</h2>
+    <h2 data-lang-en>Vision & Mission</h2>
+
+    <div class="vision">
+      <h3 data-lang-id>Visi</h3>
+      <h3 data-lang-en>Vision</h3>
+      <p data-lang-id>Menjadi mitra strategis bagi UMKM Bali dan dunia usaha profesional dalam transformasi digital, menghadirkan solusi inovatif yang berkelanjutan dan berdaya saing global.</p>
+      <p data-lang-en>To be a strategic partner for Bali SMEs and professional businesses in digital transformation, delivering innovative and sustainable solutions with global competitiveness.</p>
+    </div>
+
+    <div class="mission">
+      <h3 data-lang-id>Misi</h3>
+      <h3 data-lang-en>Mission</h3>
+      <ul>
+        <li><span data-lang-id>Mendukung UMKM Bali untuk go digital dengan solusi praktis dan terjangkau.</span><span data-lang-en>Support Bali SMEs to go digital with practical and affordable solutions.</span></li>
+        <li><span data-lang-id>Membangun ekosistem bisnis yang berdaya saing melalui inovasi teknologi.</span><span data-lang-en>Build competitive business ecosystems through technological innovation.</span></li>
+        <li><span data-lang-id>Memberikan layanan profesional yang berorientasi pada hasil dan keberlanjutan.</span><span data-lang-en>Provide professional services focused on results and sustainability.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section id="why-choose-us">
+    <h2 data-lang-id>Mengapa Memilih Kami</h2>
+    <h2 data-lang-en>Why Choose Us</h2>
+
+    <div class="choose-grid">
+      <div class="choose-item">
+        <h3>🌟 <span data-lang-id>Pengalaman 20+ Tahun</span><span data-lang-en>20+ Years Experience</span></h3>
+        <p data-lang-id>Lebih dari dua dekade pengalaman dalam retail, startup, dan pengembangan bisnis.</p>
+        <p data-lang-en>Over two decades of experience in retail, startups, and business development.</p>
+      </div>
+      <div class="choose-item">
+        <h3>📈 <span data-lang-id>Pertumbuhan Bisnis 35.6%</span><span data-lang-en>35.6% Business Growth</span></h3>
+        <p data-lang-id>Terbukti mendorong revenue nasional hingga 35.6% melalui strategi ekspansi pasar.</p>
+        <p data-lang-en>Proven to drive national revenue growth up to 35.6% through market expansion strategies.</p>
+      </div>
+      <div class="choose-item">
+        <h3>🤝 <span data-lang-id>Fokus UMKM Bali</span><span data-lang-en>Focus on Bali SMEs</span></h3>
+        <p data-lang-id>Komitmen mendukung UMKM lokal dengan solusi digital praktis dan terjangkau.</p>
+        <p data-lang-en>Committed to supporting Bali SMEs with practical and affordable digital solutions.</p>
+      </div>
+      <div class="choose-item">
+        <h3>💡 <span data-lang-id>Inovasi Digital</span><span data-lang-en>Digital Innovation</span></h3>
+        <p data-lang-id>Menggunakan pendekatan Lean Startup & teknologi inovatif untuk keberlanjutan bisnis.</p>
+        <p data-lang-en>Applying Lean Startup methodology & innovative technology for sustainable business growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2 data-lang-id>Testimoni Klien</h2>
+    <h2 data-lang-en>Client Testimonials</h2>
+
+    <div class="testi-grid">
+      <div class="testi-item">
+        <p data-lang-id>"Boriel Digital Bali membantu usaha kecil kami memiliki website profesional. Penjualan meningkat 40% dalam 3 bulan!"</p>
+        <p data-lang-en>"Boriel Digital Bali helped our small business build a professional website. Sales increased by 40% in just 3 months!"</p>
+        <h4>- Ibu Ayu, UMKM Kuliner Bali</h4>
+      </div>
+      <div class="testi-item">
+        <p data-lang-id>"Aplikasi rental motor yang dibuat tim Boriel sangat memudahkan turis asing. Kami mendapat review positif dari pelanggan internasional."</p>
+        <p data-lang-en>"The motorbike rental app created by the Boriel team made it easy for foreign tourists. We received positive reviews from international customers."</p>
+        <h4>- Pak Made, Rental Motor Bali</h4>
+      </div>
+      <div class="testi-item">
+        <p data-lang-id>"Marketplace lokal yang dibangun Boriel Digital Bali membantu produk kami dikenal lebih luas dan meningkatkan brand awareness."</p>
+        <p data-lang-en>"The local marketplace built by Boriel Digital Bali helped our products gain wider recognition and boosted brand awareness."</p>
+        <h4>- Komunitas UMKM Kerajinan Bali</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 data-lang-id>Kontak</h2>
+    <h2 data-lang-en>Contact</h2>
+    <p>📱 WhatsApp: <a href="https://wa.me/6285600056789">+62-856-000-56789</a></p>
+    <p>✉️ Email: <a href="mailto:mondranovies@gmail.com">mondranovies@gmail.com</a></p>
+    <p>📍 <span data-lang-id>Alamat</span><span data-lang-en>Address</span>: Pemogan, Denpasar Selatan, Bali</p>
+  </section>
+
+  <!-- Final CTA Section -->
+  <section id="cta-final">
+    <h2 data-lang-id>Mulai Transformasi Digital Anda Hari Ini</h2>
+    <h2 data-lang-en>Start Your Digital Transformation Today</h2>
+    <p data-lang-id>Jadikan bisnis Anda lebih modern, efisien, dan berdaya saing global bersama Boriel Digital Bali.</p>
+    <p data-lang-en>Make your business more modern, efficient, and globally competitive with Boriel Digital Bali.</p>
+    <div class="cta-buttons">
+      <a href="https://wa.me/6285600056789" class="cta-btn whatsapp">📱 <span data-lang-id>Hubungi via WhatsApp</span><span data-lang-en>Contact via WhatsApp</span></a>
+      <a href="mailto:mondranovies@gmail.com" class="cta-btn email">✉️ <span data-lang-id>Kirim Email</span><span data-lang-en>Send Email</span></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Boriel Digital Bali. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // ---- Language switch (ID / EN) ----
+    function setLanguage(lang) {
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang);
+      document.querySelectorAll('[data-lang-btn]').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.langBtn === lang);
+      });
+      localStorage.setItem('boriel-lang', lang);
+    }
+
+    // ---- Theme switch (light / dark) ----
+    function toggleTheme() {
+      const isDark = document.body.classList.toggle('dark-mode');
+      localStorage.setItem('boriel-theme', isDark ? 'dark' : 'light');
+    }
+
+    // ---- Mobile nav toggle ----
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+
+    // ---- Restore saved preferences ----
+    setLanguage(localStorage.getItem('boriel-lang') || 'id');
+    if (localStorage.getItem('boriel-theme') === 'dark') {
+      document.body.classList.add('dark-mode');
+    }
+  </script>
+
+</body>
+</html>
