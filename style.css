@@ -420,7 +420,7 @@ a:focus-visible, button:focus-visible {
 }
 
 /* ---- Responsive ---- */
-@media (max-width: 1300px) {
+@media (max-width: 1100px) {
   .navbar-toggle { display: block; }
   .navbar-links {
     display: none;
