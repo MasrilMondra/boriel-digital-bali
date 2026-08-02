@@ -436,24 +436,6 @@ a:focus-visible, button:focus-visible {
   .navbar-links a { padding: 12px 20px; text-align: center; }
 }
 @media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    height: auto;
-    min-height: 0;
-    max-height: none;
-    padding: 90px 16px 40px;
-  }
-  .hero-bg {
-    position: static;
-    width: 100%;
-    max-width: 420px;
-    height: auto;
-    object-fit: contain;
-    border-radius: var(--radius);
-    margin: 0 auto 20px;
-    display: block;
-  }
-  .hero::before { display: none; }
   .hero h1 { font-size: 2.2rem; }
   .founder-profile { flex-direction: column; text-align: center; }
   .founder-text { text-align: center; }
